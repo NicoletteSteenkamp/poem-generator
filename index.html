@@ -8,20 +8,21 @@
     <title>AI poem generator</title>
 </head>
 <body>
+    <div class="container">
     <header>
     <h1>AI poem generator</h1>
 </header>
 <main>
     <form>
-        <input type="text" placeholder="Enter the topic for the poem here" autofocus required autocomplete="off"/>
-        <input type="submit" />
-<div>
-    poem here
-    <br/>
-    poem header
-    <br/>
-</div>
-    </form>
+        <input type="text" placeholder="Enter the topic for the poem here" autofocus required autocomplete="off" class="instructions"/>
+        <input type="submit" class="submit-button"/>
+   </form>
+    <div class="poem">
+        poem here
+        <br/>
+        poem header
+        <br/>
+    </div>
 </main>
 
 
@@ -29,6 +30,8 @@
 
 
 <footer>This AI project was coded by <a href="https://github.com/NicoletteSteenkamp" target="_blank">Nicolette Steenkamp</a> it is open-sourced on <a href="https://github.com/NicoletteSteenkamp/poem-generator" target="_blank">GitHub</a> and hosted on  <a href="https://ai-generator-for-poems.netlify.app/" target="_blank">Netlify</a></footer>
-    <script src="/src/index.js"></script>
+</div>    
+<script src="/src/index.js"></script>
+
 </body>
 </html>
