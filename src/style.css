@@ -1,5 +1,6 @@
 body{ 
-    background-color: rgb(166, 143, 213);
+    background-color: #c1abc3;
+
 font-family: sans-serif;}
 
 .container{
@@ -68,5 +69,6 @@ footer{
     margin-top: 30px;
 }
 
-a{text-decoration: none;
-color: blueviolet;}
+a{
+    color:#4b1b98;
+    text-decoration: none;}
